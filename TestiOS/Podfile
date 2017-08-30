@@ -1,0 +1,18 @@
+# pod资源的来源
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'ssh://git@120.25.127.191/diffusion/5/MAMASpecs.git'
+
+# 忽略所有引用的第三方库警告
+inhibit_all_warnings!
+
+# 指明以下配置作用的iOS版本
+platform:ios,'8.0'
+
+# 指明podFile作用的工程
+project 'TestiOS.xcodeproj'
+
+# 配置工程使用的依赖库
+target 'TestiOS' do
+        
+end
+
